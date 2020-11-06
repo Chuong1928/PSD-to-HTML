@@ -1,0 +1,99 @@
+.position-03 {
+    margin-top: 30px;
+}
+.position-03 .box-1 {
+    width: 318px;
+    float: left;
+}
+.position-03 .box-1 h2 {
+    border-left: 3px solid #ffd429;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-transform: uppercase;
+    color: #333;
+}
+ .position-03 .box-1 .control {
+    padding: 25px 40px;
+    background-color: #666;
+}
+.position-03 .box-1 .control li {
+    padding: 15px 0;
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-transform: uppercase;
+}
+.position-03 .box-1 .control li.last {
+    border-bottom: none;
+}
+ .position-03 .box-1 .control li.active {
+    color: #fff;
+}
+ .position-03 .box-1 .control li.active:before {
+    content: '';
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    left: -20px;
+    top: 18px;
+    background: url(images/checked.png) no-repeat;
+}
+.position-03 .box-2 {
+    width: 852px;
+    height: 425px;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+.position-03 .box-2 .slide {
+    position: absolute;
+    height: 100%;
+    width: 5000px;
+}
+.position-03 .box-2 .slide .item {
+    float: left;
+}
+ .position-03 .box-2 .box-image {
+    width: 420px;
+    float: left;
+    border: 1px solid #eaeaea;
+    position: relative;
+}
+.position-03 .box-2 .product-shop {
+    border: 1px solid #eaeaea;
+    border-left: none;
+    width: 432px;
+    float: right;
+    padding: 40px;
+    background-color: #fff;
+    margin-top: 45px;
+}
+ .position-03 .box-2 .product-shop .std {
+    border-top: 1px solid #eaeaea;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #444;
+    margin-bottom: 20px;
+    font-family: 'arial';
+}
+.position-03 .box-2 .product-shop a.btn-cart {
+    line-height: 38px;
+    background-color: #45464a;
+    color: #fff;
+    padding: 10px 15px;
+}
+.position-03 .box-2 .product-shop .link-wishlist, #box-content .position-03 .box-2 .product-shop .link-compare, #box-content .position-03 .box-2 .product-shop .vt_quickview_handler {
+    width: 38px;
+    height: 38px;
+    background-color: #9d9d9f;
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.position-03 .box-2 .slide .item {
+    float: left;
+}
